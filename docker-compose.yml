@@ -1,0 +1,8 @@
+services:
+  dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      KAGGLE_DATASET_SLUG: ${KAGGLE_DATASET_SLUG:-}
+      KAGGLE_DATASET_PATH: ${KAGGLE_DATASET_PATH:-}
