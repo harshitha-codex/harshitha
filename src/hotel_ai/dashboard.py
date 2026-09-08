@@ -49,7 +49,8 @@ def main() -> None:
         .title-box h1 {
             color: #000000 !important;
             margin: 0 !important;
-            font-weight: 800 !important;
+            font-size: 1.8rem !important;
+            font-weight: 700 !important;
             opacity: 1 !important;
         }
 
@@ -82,7 +83,19 @@ def main() -> None:
             opacity: 1 !important;
             filter: none !important;
             text-shadow: none !important;
-            font-weight: 700 !important;
+            font-size: 1rem !important;
+            font-weight: 400 !important;
+        }
+
+        .hotel-card h3 {
+            font-size: 1.2rem !important;
+            font-weight: 600 !important;
+        }
+
+        .hotel-card p,
+        .hotel-card li {
+            font-size: 1rem !important;
+            font-weight: 400 !important;
         }
 
         .hotel-card ul {
